@@ -4,68 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TK Photography</title>
 </head>
 <body>
-    TK Photography
-About
-Gallery
-Contact
-^ top
-About
-TK.png
+    <header> 
+        <h1>Photography</h1>
 
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-Gallery
-Here are some highlights of my work. 
-The locations and year are in the caption. 
+        <section>
+            <nav>
+                <ul>
+                    <li><a>About</a></li>
+                    <li><a>Gallery</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>^ top</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
 
-Chile.png
-Chile, 2001
+    <section>
+        <h2>About</h2>
+        TK.png
+        <p>Hello! </p>
+        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p> 
+    </section>
 
-Guatemala.png
-Guatemala, 1997
+    <section>
+        <h2>Gallery</h2>
+        <p>Here are some highlights of my work. 
+        The locations and year are in the caption.</p> 
 
-Hawaii.png
-Hawaii, 2010
+        <figure>
+            <img src="Chile.png" alt ="Picture of Chile">
+            <figcaption>Chile, 2001</figcaption>
+        </figure>
 
-Iran.png
-Iran, 1999
+        <figure>
+            <img src="Guatemala.png" alt="">
+            <figcaption>Guatemala, 1997</figcaption>
+        </figure>
 
-Ireland.png
-Ireland, 2012
+        <figure>
+            <img src="Hawaii.png" alt="">
+            <figcaption>Hawaii, 2010</figcaption>
+        </figure>
 
-Italy.png
-Italy, 2015
+        <figure>
+            <img src="Iran.png" alt="">
+            <figcaption>Iran, 1999</figcaption>
+        </figure>
 
-Moab-Desert.png
-Moab Desert, 2020
+        <figure>
+            <img src="Ireland.png" alt="">
+            <figcaption>Ireland, 2012</figcaption>
+        </figure>
 
-Rocky-Mountains.png
-Rocky Mountains, 2009
+        <figure>
+            <img src="Italy.png" alt="">
+            <figcaption>Italy, 2015</figcaption>
+        </figure>
 
-Switzerland.png
-Switzerland, 2014
+        <figure>
+            <img src="Moab-Desert.png" alt="">
+            <figcaption>Moab Desert, 2020</figcaption>
+        </figure>
 
-UK.png
-UK, 2005
+        <figure>
+            <img src="Rocky-Mountains.png" alt="">
+            <figcaption>Rocky Mountains, 2009</figcaption>
+        </figure>
 
-USA.png
-USA, 2021
+        <figure>
+            <img src="Switzerland.png" alt="">
+            <figcaption>Switzerland, 2014</figcaption>
+        </figure>
 
-Wyoming.png
-Wyoming, 2021
-Contact
-Please fill out this form and I’ll connect with you soon.
+        <figure>
+            <img src="UK.png" alt="">
+            <figcaption>UK, 2005</figcaption>
+        </figure>
 
-Your contact information
-Name (Your full name)
-Email (Enter your email address)
-Message (What can I help you with?)
-Submit
+        <figure>
+            <img src="USA.png" alt="">
+            <figcaption>USA, 2021</figcaption>
+        </figure>
 
-Copyright 2021 TK Photography
+        <figure>
+            <img src="Wyoming.png" alt="">
+            <figcaption>Wyoming, 2021</figcaption>
+        </figure>
+
+    </section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Please fill out this form and I’ll connect with you soon.</p>
+
+    <form>
+        <!--Your contact Information-->
+        <label for="fullname">Name (Your full name)</label><br>
+        <input type="text" id="fullname"><br>
+        <label for="email">Email (Enter your email address)</label><br>
+        <input type="text" id="email"><br>
+        <label for="message">Message (What can I help you with?)</label><br>
+        <input type="text" id="message"><br>
+        <input type="submit" value="Submit"> 
+    </form>
+</section>
+
+<footer>
+    Copyright 2021 TK Photography
+</footer>
+
 
 </body>
 </html>
