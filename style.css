@@ -1,0 +1,17 @@
+html {
+    width: 1310px;
+    position: static;
+    background-color: black;
+}
+
+body {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+
+header {
+    height: 150 px;
+    background-color: black;
+    color: white;
+}
