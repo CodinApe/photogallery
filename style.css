@@ -21,7 +21,7 @@ body {
     background-color: white
 }
 
-h1, h2, figcaption, input::placeholder {
+h1, h2, figcaption, input::placeholder, [type="submit"] {
     text-transform: uppercase
 }
 
