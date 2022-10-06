@@ -5,115 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css">
-    <title>TK Photography</title>
+    <title id="title">TK Photography</title>
 </head>
 
 <body>
-    <header> 
-        <h1>TK Photography</h1>
-            <nav>
-                <ul>
-                    <li><a>About</a></li>
-                    <li><a>Gallery</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>^ top</a></li>
-                </ul>
-            </nav>
+    <header id="top_of_page"> 
+        <h1>TK PHOTOGRAPHY</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
 
-    <section>
+    <section id="about">
         <h2>About</h2>
-        TK.png
-        <p>Hello! </p>
-        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p> 
+        <img src="TK.png" alt=" ">
+        <p>Hello! <br> I’m TK and I’m a photographer. I love looking at life through the 
+            lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p> 
     </section>
 
-    <section>
+    <section id="gallery">
         <h2>Gallery</h2>
         <p>Here are some highlights of my work. 
-        The locations and year are in the caption.</p> 
-
-        <figure>
+        The locations and year are in the caption.</p>
+        <figure class="picture">
             <img src="Chile.png" alt ="Picture of Chile">
             <figcaption>Chile, 2001</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Guatemala.png" alt="">
             <figcaption>Guatemala, 1997</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Hawaii.png" alt="">
             <figcaption>Hawaii, 2010</figcaption>
         </figure>
 
-        <figure>
+        <figure id="iran" class="picture">
             <img src="Iran.png" alt="">
             <figcaption>Iran, 1999</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Ireland.png" alt="">
             <figcaption>Ireland, 2012</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Italy.png" alt="">
             <figcaption>Italy, 2015</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Moab-Desert.png" alt="">
             <figcaption>Moab Desert, 2020</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Rocky-Mountains.png" alt="">
             <figcaption>Rocky Mountains, 2009</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Switzerland.png" alt="">
             <figcaption>Switzerland, 2014</figcaption>
         </figure>
 
-        <figure>
+        <figure id="UK" class="picture">
             <img src="UK.png" alt="">
             <figcaption>UK, 2005</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="USA.png" alt="">
             <figcaption>USA, 2021</figcaption>
         </figure>
 
-        <figure>
+        <figure class="picture">
             <img src="Wyoming.png" alt="">
             <figcaption>Wyoming, 2021</figcaption>
         </figure>
-
     </section>
 
-<section>
+
+<section id="contact_sect">
     <h2>Contact</h2>
     <p>Please fill out this form and I’ll connect with you soon.</p>
 
     <form>
         <!--Your contact Information-->
-        <label for="fullname">Name (Your full name)</label><br>
-        <input type="text" id="fullname"><br>
-        <label for="email">Email (Enter your email address)</label><br>
-        <input type="text" id="email"><br>
-        <label for="message">Message (What can I help you with?)</label><br>
-        <input type="text" id="message"><br>
+        <label for="fullname">Name</label><br>
+        <input type="text" id="fullname" placeholder="Enter your full name"><br>
+        <label for="email">Email </label><br>
+        <input type="text" id="email" placeholder="Enter your email address"><br>
+        <label for="message">Message</label><br>
+        <input type="text" id="message" placeholder="What can I help you with?"><br>
         <input type="submit" value="Submit"> 
     </form>
 </section>
 
+
 <footer>
-    Copyright 2021 TK Photography
+    <p>Copyright 2021 TK Photography</p>
+    <p id="top_button"><a href="#top"> ^ <br>Top</a></p>
 </footer>
 </body>
 
