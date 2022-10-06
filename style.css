@@ -1,17 +1,186 @@
 html {
-    width: 1310px;
+    width: 1330px;
+    margin: auto;
     position: static;
     background-color: black;
 }
 
-body {
-    width: 800px;
-    background-color: white;
-    margin: auto;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    height: 150 px;
+    height: 60px;
     background-color: black;
     color: white;
 }
+
+body {
+    width: 1310px;
+    margin: auto;
+    background-color: white
+}
+
+h1, h2, figcaption, input::placeholder {
+    text-transform: uppercase
+}
+
+h1 {
+    size: 40px;
+    color: #007d7b;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 40px;;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul {
+    padding-top: 15px;
+}
+
+li {
+    display: inline;
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+a, a:visited  {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #007d7b;
+}
+
+#about h2, #about h2~p {
+    padding-right: 15px;
+}
+
+#about {
+    margin: 8px;
+}
+
+#about img {
+    width: 850px;
+}
+
+#about h2 {
+    float: right;
+    width: 250px;
+    text-align: right;
+    margin: 10px;
+    font-size: 40px;
+}
+
+#about p {
+    float: right;
+    width: 325px;
+    text-align: right;
+    margin: -120px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#gallery h2, #gallery h2~p {
+    padding-left: 15px;
+}
+
+#gallery h2 {
+    margin: -2px;
+}
+
+figure {
+    margin: 0px 0px 0px 12px;
+    float: left;
+}
+
+.picture {
+    position: relative;
+}
+
+.picture figcaption {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    padding: 2px;
+}
+
+#iran, #UK {
+    clear: left;
+}
+
+
+form {
+    width: 700px;
+    font-size: 16px;
+    margin: auto;
+}
+
+footer, #contact_sect {
+    clear:both;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact_sect h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#contact_sect p {
+    text-align: center;
+    margin-top: -24px;
+}
+
+input {
+    width: 700px;
+    margin: 8px 0px;
+    height: 25px;
+    color: #007d7b;
+}
+
+input::placeholder {
+    color: #007d7b;
+}
+
+[type="submit"] {
+    cursor: pointer;
+    height: 38px;
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    background-color: #007d7b;
+    color: white;
+}
+
+#top_button {
+    position: fixed;
+    right:0%;
+    bottom: -20px;
+    background-color: #007d7b;
+    text-align: center;
+    width: 40px;
+    font-size: 20px;
+}
+
+#top_button:hover {
+    color: #007d7b;
+    background-color: white;
+}
+
